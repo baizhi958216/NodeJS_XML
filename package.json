@@ -1,0 +1,21 @@
+{
+  "name": "NahidaProject_Anime_Node_XML",
+  "version": "1.0.0",
+  "description": "NahidaProject 动漫平台 NODEJS/XML版",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --watch src/**/*.ts --exec \"ts-node\" src/app.ts"
+  },
+  "keywords": [],
+  "author": "baizhi958216",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.16",
+    "@types/xmldom": "^0.1.31",
+    "cors": "^2.8.5",
+    "fast-xml-parser": "^4.0.12",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
