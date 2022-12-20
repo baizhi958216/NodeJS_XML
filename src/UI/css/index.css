@@ -1,0 +1,57 @@
+.mainclient,
+.mainserver {
+    height: 100%;
+}
+
+.mainserver {
+    display: none;
+}
+
+.client {
+    height: 100%;
+    background-size: cover;
+}
+
+.userclient {
+    background-image: url(http://localhost:3000/public/userlogin.jpg);
+}
+
+.adminclient {
+    background-image: url(http://localhost:3000/public/adminlogin.jpg);
+}
+
+.login {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+
+.userlogin {
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    background-color: rgba(240, 212, 90, 0.61);
+}
+
+.adminlogin {
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+    background-color: rgba(240, 212, 90, 0.329);
+}
+
+.forminput {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+
+.forminput:focus {
+    border-bottom: 2px solid rgb(255, 255, 255)
+}
+
+.hidden {
+    display: none;
+}

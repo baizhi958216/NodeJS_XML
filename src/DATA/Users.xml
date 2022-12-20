@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Users>
+    <user>
+        <uid>1</uid>
+        <uname>baizhi958216</uname>
+        <upassword>wellisme</upassword>
+        <ugender>男</ugender>
+        <ulocation>广东</ulocation>
+        <ubirthday>1949-10-01</ubirthday>
+    </user>
+    <user>
+        <uid>2</uid>
+        <uname>helloxml</uname>
+        <upassword>igotyou</upassword>
+        <ugender>男</ugender>
+        <ulocation>广东</ulocation>
+        <ubirthday>1949-10-01</ubirthday>
+    </user>
+    <user>
+        <uid>3</uid>
+        <uname>hi</uname>
+        <upassword>CyzZ7GGE6HqzJJf</upassword>
+        <ugender>男</ugender>
+        <ulocation>d</ulocation>
+        <ubirthday>d-d-d</ubirthday>
+    </user>
+    <user>
+        <uid>4</uid>
+        <uname>sssss</uname>
+        <upassword>sda</upassword>
+        <ugender>男</ugender>
+        <ulocation>dsaa</ulocation>
+        <ubirthday>dsa-dsa-das</ubirthday>
+    </user>
+</Users>

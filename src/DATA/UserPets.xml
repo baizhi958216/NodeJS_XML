@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ubinds>
+    <bind>
+        <bid>1</bid>
+        <buserid>1</buserid>
+        <bpets>
+            <bpet>
+                <pid>1</pid>
+                <padoptdate>2022-12-16</padoptdate>
+                <pgender>雄性</pgender>
+                <phungry>0.1</phungry>
+            </bpet>
+            <bpet>
+                <pid>2</pid>
+                <padoptdate>2022-12-17</padoptdate>
+                <pgender>雄性</pgender>
+                <phungry>0.3</phungry>
+            </bpet>
+        </bpets>
+    </bind>
+</ubinds>

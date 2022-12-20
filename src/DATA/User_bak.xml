@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Users>
+    <user>
+        <uid>1</uid>
+        <uname>baizhi958216</uname>
+        <upassword>wellisme</upassword>
+        <ugender>男</ugender>
+        <ulocation>广东</ulocation>
+        <ubirthday>1949-10-01</ubirthday>
+    </user>
+    <user>
+        <uid>2</uid>
+        <uname>helloxml</uname>
+        <upassword>igotyou</upassword>
+        <ugender>男</ugender>
+        <ulocation>广东</ulocation>
+        <ubirthday>1949-10-01</ubirthday>
+    </user>
+</Users>

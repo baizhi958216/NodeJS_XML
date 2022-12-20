@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Admins>
+    <admin>
+        <aid>1</aid>
+        <aname>baizhi958216</aname>
+        <apassword>wellisme</apassword>
+    </admin>
+    <admin>
+        <aid>2</aid>
+        <aname>helloxml</aname>
+        <apassword>igotyou</apassword>
+    </admin>
+</Admins>

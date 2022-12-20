@@ -1,15 +1,15 @@
 import http from 'node:http'
-import { route } from './SERVER/Router/Router.service'
-import { SingletonReader } from './SERVER/utils/SingletonReader'
+import { Router } from './SERVER/Services/Router/Router.service'
+import { FileReaderService } from './SERVER/Services/XFileReader/FileReader.service'
 import { XMLParser } from 'fast-xml-parser';
 
 let env: string
-
+        
 // 区分开发环境和生产环境
 if (process.argv[2] && process.argv[2].includes('production')) {
-    env = SingletonReader.getInstance().SetPath(`${process.cwd()}\\env.production.xml`).UTF8Parse()
+    env = FileReaderService.getInstance().SetPath(`${process.cwd()}\\env.production.xml`).UTF8Parse()
 } else {
-    env = SingletonReader.getInstance().SetPath(`${process.cwd()}\\env.development.xml`).UTF8Parse()
+    env = FileReaderService.getInstance().SetPath(`${process.cwd()}\\env.development.xml`).UTF8Parse()
 }
 
 const parseENV = new XMLParser().parse(env)
@@ -26,7 +26,7 @@ const corsMiddleware = require('cors')({
 
 const server = http.createServer((req, res) => {
     // 路由
-    const next = () => route(req, res)
+    const next = () => Router.getInstance().route(req,res)
     // 实例化跨域中间件
     corsMiddleware(req, res, next)
 })

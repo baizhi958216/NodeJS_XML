@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pets style="display:flex;flex-direction:column;">
+    <pet>
+        <pid>1</pid>
+        <pname>柴犬</pname>
+        <ptype>家犬</ptype>
+        <pbirthday>2021-05-11</pbirthday>
+    </pet>
+
+    <pet>
+        <pid>2</pid>
+        <pname>西伯利亚雪橇犬</pname>
+        <ptype>家犬</ptype>
+        <pbirthday>2020-02-06</pbirthday>
+    </pet>
+
+    <pet>
+        <pid>3</pid>
+        <pname>加菲猫</pname>
+        <ptype>家猫</ptype>
+        <pbirthday>2019-05-16</pbirthday>
+    </pet>
+
+    <pet>
+        <pid>4</pid>
+        <pname>波斯猫</pname>
+        <ptype>家猫</ptype>
+        <pbirthday>2018-07-04</pbirthday>
+    </pet>
+
+    <pet>
+        <pid>5</pid>
+        <pname>毛毛虫</pname>
+        <ptype>虫类</ptype>
+        <pbirthday>2022-12-20</pbirthday>
+    </pet>
+
+    <pet>
+        <pid>6</pid>
+        <pname>鹦鹉</pname>
+        <ptype>鸟类</ptype>
+        <pbirthday>2022-10-14</pbirthday>
+    </pet>
+
+    <pet>
+        <pid>7</pid>
+        <pname>鸡</pname>
+        <ptype>你太美</ptype>
+        <pbirthday>2001-10-08</pbirthday>
+    </pet>
+</pets>
